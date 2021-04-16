@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Permanent+Marker&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   background-color: rgba(24, 96, 145, 0.623);
+   padding: 25px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    margin: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#navbar li a:hover{
+    color: cyan;
+    
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.logo img{
+    height: 34px;
+    align-items: center;
+    filter: invert(1);
+}
+#content{
+    height: 500px;
+    background: url('/static/img/bg_image.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster Two', cursive;
+    font-size: 43px;
+    padding-bottom: 103px;
+}
+.card-img{
+    display: inline;
+    height: 100px;
+    padding: 0px 34px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    display: inline;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 37px 0px;
+}
+.card h4{
+    margin-top: 20px;
+}
+#mission{
+    height: 300px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 12px;
+    font-size: 22px;
+}
+#mission .container{
+    display: flex;
+    flex-direction: row;
+}
+#mission .card{
+    border: 5px solid black;
+    width: 485px;
+    margin: 14px 5px;
+    height: 217px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+#spons{
+    height: 224px;
+    background-color: rgba(226, 120, 71, 0.589);
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 12px;
+    font-size: 22px;
+}
+.sponser img{
+    height: 73px;
+    width: 197px;
+    padding: 20px;
+    margin-top: 34px;
+}
+#footer{
+    background-color: rgb(28, 173, 149);
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.small{
+    font-size: 1.8rem;
+}

@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    title Krishna Dance Palace
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      ul
+       div.logo 
+          img(src="/static/img/logo.png", alt="")
+       li #[a(href="/") Home]
+       li #[a(href="/") About us ]
+       li #[a(href="/") Services ]
+       li #[a(href="/") Contact us]
+    section#content 
+      div Welcome To Krishna's Dance Place 
+      div.small Eat learn play sleep
+    section#mission
+       h3 Our Mission 
+       div.container
+        div.card 
+          h4 Dance perfection
+          div.card-box
+            div.card-img 
+              img(src="/static/img/1.png", alt="")
+            div.card-content 
+              | Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit?
+        div.card 
+          h4 Enlighten your dance
+          div.card-box
+            div.card-img 
+              img(src="/static/img/2.png", alt="")
+            div.card-content 
+             | Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit? 
+        div.card 
+          h4 Our facilites
+          div.card-box
+            div.card-img 
+              img(src="/static/img/3.jpg", alt="")
+            div.card-content 
+              | Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sit?
+    section#spons 
+        h2 Our Sponser
+        div.sponser 
+          img(src="/static/img/tesla.png", alt="sponser logo") 
+          img(src="/static/img/google-pay.png", alt="sponser logo") 
+          img(src="/static/img/amazon-pay.png", alt="sponser logo") 
+          img(src="/static/img/microsoft.png", alt="sponser logo") 
+    footer#footer 
+      | Copyright &copy 2021 All right reserved
+    script
+      include ../static/index.js
